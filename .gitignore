@@ -1,0 +1,20 @@
+# IDE
+.idea
+.settings
+
+# node
+node_modules/
+
+# ionic
+www/
+#www/lib/
+coverage/
+platforms/
+plugins/
+<%= appPath %>/bower_components/
+.tmp
+.sass-cache
+*.swp
+*.swo
+*.log
+*.DS_Store
