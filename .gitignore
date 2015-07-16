@@ -2,18 +2,18 @@
 .idea
 .settings
 
-# node
-node_modules/
-
 # ionic
-www/
-#www/lib/
-coverage/
-platforms/
-plugins/
-<%= appPath %>/bower_components/
+node_modules/
 .tmp
 .sass-cache
+coverage/
+
+# bower
+<%= appPath %>/bower_components/
+#www/
+#www/lib/
+platforms/
+plugins/
 *.swp
 *.swo
 *.log
